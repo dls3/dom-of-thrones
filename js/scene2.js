@@ -45,18 +45,24 @@ function scene2() {
   nedContainer.style.left = '25%'
 
   // Character 2
+
+
   joffContainer = document.createElement('div')
   joffContainer.id = 'joff-container'
   stage.append(joffContainer)
-
-  joffContainer.style.width = '10%'
+  joffContainer.style.width = '8%'
   joffContainer.style.position = 'absolute'
-  joffContainer.style.height = '30%'
-  joffContainer.style.top = '58%'
-  joffContainer.style.left = '45%'
-
+  joffContainer.style.height = '31%'
+  joffContainer.style.top = '55%'
+  joffContainer.style.left = '55%'
   joffContainer.style.border = 'none'
   joffContainer.style.background = 'none'
+
+  joffrey = document.querySelector('#joffrey')
+  joffContainer.append(joffrey)
+  joffrey.style.width = '75%'
+  joffrey.style.left = '33%'
+  joffrey.style.position = 'absolute'
 
   kingWardrobe = document.querySelector('#king')
   joffContainer.append(kingWardrobe)
@@ -75,20 +81,57 @@ function scene2() {
 
   sword.style.transform = 'rotateY(150deg)'
 
-  // Prop 2
-
   // Action!
-
-  // Stage direction 1
-
+  // Sword animation
   frame(function() {
-
+    sword.style.top = '77%'
+    sword.style.left = '31%'
   })
 
-  // Stage direction 2
+  frame(function() {
+    sword.style.top = '71%'
+    sword.style.left = '39%'
+  })
 
   frame(function() {
+    sword.style.top = '66%'
+    sword.style.left = '47%'
+  })
 
+  frame(function() {
+    sword.style.top = '61%'
+    sword.style.left = '55%'
+  })
+
+  frame(function() {
+    sword.style.left = '55%'
+    sword.style.top = '63%'
+  })
+
+  // Joff animation
+  frame(function() {
+    joffrey.style.top = 0
+    joffrey.style.left = '33%'
+  })
+
+  frame(function() {
+    joffrey.style.top = '17%'
+    joffrey.style.left = '90%'
+  })
+
+  frame(function() {
+    joffrey.style.top = '35%'
+    joffrey.style.left = '160%'
+  })
+
+  frame(function() {
+    joffrey.style.top = '55%'
+    joffrey.style.left = '230%'
+  })
+
+  frame(function() {
+    joffrey.style.top = '75%'
+    joffrey.style.left = '300%'
   })
 
 }
