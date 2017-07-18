@@ -45,8 +45,6 @@ function scene2() {
   nedContainer.style.left = '25%'
 
   // Character 2
-
-
   joffContainer = document.createElement('div')
   joffContainer.id = 'joff-container'
   stage.append(joffContainer)
