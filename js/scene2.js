@@ -108,30 +108,35 @@ function scene2() {
     sword.style.top = '63%'
   })
 
-  // Joff animation
+// Joffrey animation
   frame(function() {
     joffrey.style.top = 0
     joffrey.style.left = '33%'
+    joffrey.style.transform = 'rotateZ(220deg)'
   })
 
   frame(function() {
     joffrey.style.top = '17%'
     joffrey.style.left = '90%'
+    joffrey.style.transform = 'rotateZ(140deg)'
   })
 
   frame(function() {
     joffrey.style.top = '35%'
     joffrey.style.left = '160%'
+    joffrey.style.transform = 'rotateZ(260deg)'
   })
 
   frame(function() {
     joffrey.style.top = '55%'
     joffrey.style.left = '230%'
+    joffrey.style.transform = 'rotateZ(180deg)'
   })
 
   frame(function() {
     joffrey.style.top = '75%'
     joffrey.style.left = '300%'
+    joffrey.style.transform = 'rotateZ(100deg)'
   })
 
 }
