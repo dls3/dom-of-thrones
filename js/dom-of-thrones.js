@@ -11,6 +11,5 @@ function frame(actions) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-scene3()
 
 })

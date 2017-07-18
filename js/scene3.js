@@ -19,6 +19,20 @@ function scene3() {
   danerys.style.width = '70%';
   danerys.style.position = 'absolute';
   danerys.style.top = 0;
+
+  dress = document.querySelector('#blue-dress')
+  danerysContainer.append(dress)
+
+  danerysContainer.style.height = '44%'
+  danerys.style.width = '70%'
+
+  danerys.style.position = 'absolute'
+  danerys.style.top = 0
+  dress.style.position = 'absolute'
+  dress.style.bottom = 0
+  danerysContainer.style.height = '37%'
+  danerysContainer.style.top = '55%'
+  danerysContainer.style.left = '25%'
 }
 
 
